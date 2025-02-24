@@ -1,17 +1,37 @@
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import TeamList from "./components/Teamlist";
 import Scoreboard from "./components/Scoreboard";
 import Sportings from "./components/sports";
+import About from "./pages/About";
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-gray-100">
-      <Header />
-      <TeamList />
-      <Sportings />
-      <Scoreboard />
-    </div>
+    <Router>
+      <div className="min-h-screen bg-gray-100">
+        <Header />
+        <Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/" element={
+            <>
+              <section id="teams" className="py-10">
+              <TeamList />
+              </section>
+              <section id="sportings" className="py-10">
+              <Sportings  />
+              </section>
+              <section id="scoreboard" className="py-10">
+              <Scoreboard  />
+              </section>
+            </>
+          } />
+        </Routes>
+      </div>
+    </Router>
   );
 };
+
+
 
 export default App;

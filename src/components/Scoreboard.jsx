@@ -4,11 +4,6 @@ import teamsData from "../../data.json"
 const Scoreboard = () => {
   const [scores, setScores] = useState(teamsData.scores);
 
-  // const updateScore = (team, medal) => {
-  //   const updatedScores = { ...scores };
-  //   updatedScores[team][medal] += 1;
-  //   setScores(updatedScores);
-  // };
 
   const calculateTotal = (team) => {
     return scores[team].gold * 3 + scores[team].silver * 2 + scores[team].bronze * 1;
@@ -30,7 +25,7 @@ const Scoreboard = () => {
             </tr>
           </thead>
           <tbody>
-            {Object.keys(scores).map((team, index) => (
+            {Object.keys(scores).sort((a, b) => calculateTotal(b) - calculateTotal(a)).map((team, index) => (
               <tr key={index} className="text-center bg-white hover:bg-gray-100">
                 <td className="p-3 border font-semibold">{team}</td>
                 <td className="p-3 border">{scores[team].gold}</td>

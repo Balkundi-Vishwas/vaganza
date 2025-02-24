@@ -7,8 +7,8 @@ const TeamList = () => {
       <div className="flex flex-wrap justify-center mt-5">
         {teamsData.teams.map((team, index) => (
           <div key={index} className="m-5 text-center">
-            <img src={`/images/${team.replace(" ", "%20")}.jpeg`} alt={team} className="w-32 h-32 object-contain mx-auto rounded-lg shadow-md" />
-            <h3 className="mt-2 text-lg font-semibold">{team}</h3>
+            <img src={`/images/${team.name.replace(" ", "%20")}.jpeg`} alt={team.name} className="w-32 h-32 object-contain mx-auto rounded-lg shadow-md" />
+            <h3 className="mt-2 text-lg font-semibold">{team.name}</h3>
           </div>
         ))}
       </div>

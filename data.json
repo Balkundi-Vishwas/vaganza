@@ -1,7 +1,37 @@
 {
     "teams": [
-      "Falcons", "Wild Thunders", "Team Spirit", "Masters",
-      "Brutal Soldiers", "Dominators", "Phantom", "Rising Stars"
+      {
+        "name": "Falcons",
+        "description": "Known for their strategic gameplay and swift attacks, the Falcons dominate the field with precision."
+      },
+      {
+        "name": "Wild Thunders",
+        "description": "An electrifying team with an aggressive playstyle, always pushing the limits of competition."
+      },
+      {
+        "name": "Team Spirit",
+        "description": "A team that thrives on unity and motivation, proving that teamwork makes the dream work."
+      },
+      {
+        "name": "Masters",
+        "description": "A seasoned group of players with exceptional skills and years of experience in the sport."
+      },
+      {
+        "name": "Brutal Soldiers",
+        "description": "Fearless and relentless, the Brutal Soldiers never back down from a challenge."
+      },
+      {
+        "name": "Dominators",
+        "description": "A powerhouse of talent and determination, always setting new records in the game."
+      },
+      {
+        "name": "Phantom",
+        "description": "A mysterious team with unpredictable tactics, often surprising their opponents with clever maneuvers."
+      },
+      {
+        "name": "Rising Stars",
+        "description": "A young and energetic team with the potential to become future champions."
+      }
     ],
     "sportings" : ["Chess","Carrom","Badminton"],
     "sports": {
@@ -32,7 +62,7 @@
       "Brutal Soldiers": { "gold": 0, "silver": 0, "bronze": 0 },
       "Dominators": { "gold": 0, "silver": 0, "bronze": 0 },
       "Phantom": { "gold": 0, "silver": 0, "bronze": 0 },
-      "Rising Stars": { "gold": 0, "silver": 0, "bronze": 0 }
+      "Rising Stars": { "gold": 5, "silver": 5, "bronze": 0 }
     }
   }
   
