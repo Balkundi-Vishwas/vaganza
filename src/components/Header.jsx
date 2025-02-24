@@ -68,7 +68,7 @@ const Navbar = () => {
         <a href="/" className="flex items-center space-x-3">
           <img
             src="/yuvavaganza_logo.jpeg"
-            className="h-8 rounded-full"
+            className="h-10 rounded-full"
             alt="Yuva Vaganza Logo"
           />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
@@ -85,10 +85,10 @@ const Navbar = () => {
         </button> */}
         <button
           onClick={handleToggle}
-          className={`lg:hidden block text-gray-900 dark:text-white focus:outline-none p-2 rounded-md transition-all duration-300 ${
+          className={`lg:hidden block text-gray-900 dark:text-white focus:outline-none p-2.5 rounded-md transition-all duration-300 ${
             isOpen
               ? "bg-gray-200 dark:bg-gray-700 shadow-lg"
-              : "hover:bg-gray-100 dark:hover:bg-gray-800 hover:shadow-md"
+              : "bg-gray-200 hover:bg-gray-300 dark:hover:bg-gray-800 hover:shadow-md"
           }`}
         >
           ☰
