@@ -87,8 +87,8 @@ const Navbar = () => {
           onClick={handleToggle}
           className={`lg:hidden block text-gray-900 dark:text-white focus:outline-none p-2.5 rounded-md transition-all duration-300 ${
             isOpen
-              ? "bg-gray-300 shadow-lg"
-              : "bg-gray-200 shadow-md"
+              ? "bg-gray-200 dark:bg-gray-700 shadow-lg"
+              : "bg-gray-200 dark:bg-gray-700 "
           }`}
         >
           ☰
