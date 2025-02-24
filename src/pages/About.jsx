@@ -5,7 +5,7 @@ const About = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 p-10">
-      <h1 className="text-4xl font-bold text-center text-blue-700">Yuva Vaganza 2025</h1>
+      {/* <h1 className="text-4xl font-bold text-center text-blue-700">Yuva Vaganza 2025</h1> */}
       <img src={`/yuvavaganza.jpeg`} alt={"yuva vaganza"} className="w-[12rem] h-[12rem] object-contain mx-auto rounded-lg shadow-md mt-4 mb-4" />
       <p className="text-lg text-center text-gray-700 mt-4">
         Welcome to Yuva Vaganza 2025! This event brings together top teams to showcase their skills and sportsmanship.
