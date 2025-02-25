@@ -15,13 +15,13 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/" element={
             <>
-              <section id="teams" className="py-10">
+              <section id="teams" className="pt-20">
               <TeamList />
               </section>
-              <section id="sportings" className="py-10">
+              <section id="sportings" className="pt-10">
               <Sportings  />
               </section>
-              <section id="scoreboard" className="py-10">
+              <section id="scoreboard" className="pt-16">
               <Scoreboard  />
               </section>
             </>

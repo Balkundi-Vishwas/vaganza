@@ -9,6 +9,7 @@ const Navbar = () => {
   };
 
   const handleScroll = (id) => {
+    handleToggle()
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
@@ -62,7 +63,7 @@ const Navbar = () => {
     //     {/* Automatically Visible Dropdown Menu for Small Screens */}
     //   </div>
     // </nav>
-    <nav className="bg-white border-gray-200 dark:bg-gray-900">
+    <nav className="fixed w-full bg-white border-gray-200 dark:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         {/* Logo */}
         <a href="/" className="flex items-center space-x-3">
@@ -129,7 +130,7 @@ const Navbar = () => {
         <div className={`${isOpen ? "block" : "hidden"} lg:hidden w-full mt-4`}>
           <ul className="border border-gray-200 dark:border-gray-700 rounded-lg bg-gray-50 dark:bg-gray-800">
             <li>
-              <Link
+              <Link onClick={handleToggle}
                 to="/about"
                 className="block px-4 py-2 text-gray-900 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
               >

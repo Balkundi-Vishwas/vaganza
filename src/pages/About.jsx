@@ -4,7 +4,7 @@ import teamsData from "../../data.json";
 const About = () => {
 
   return (
-    <div className="min-h-screen bg-gray-100 p-10">
+    <div className="min-h-screen bg-gray-100 pt-20">
       {/* <h1 className="text-4xl font-bold text-center text-blue-700">Yuva Vaganza 2025</h1> */}
       <img src={`/yuvavaganza.jpeg`} alt={"yuva vaganza"} className="w-[12rem] h-[12rem] object-contain mx-auto rounded-lg shadow-md mt-4 mb-4" />
       <p className="text-lg text-center text-gray-700 mt-4">
