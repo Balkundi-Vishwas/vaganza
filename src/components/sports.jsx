@@ -3,11 +3,14 @@ import teamsData from "../../data.json";
 
 const Sportings = () => {
   const [selectedSport, setSelectedSport] = useState(null);
+  const [popup, setPopup] = useState(true);
 
   const handleSportClick = (sport) => {
     setSelectedSport(selectedSport === sport ? null : sport);
   };
-
+  const handleClose = () => {
+    setSelectedSport(false);
+  };
   return (
     <div className="p-5">
       <h2 className="text-center text-2xl font-bold mt-5">🏆 Sportings</h2>
@@ -28,15 +31,29 @@ const Sportings = () => {
         ))}
       </div>
 
-      {selectedSport && (
-        <div className="mt-6 p-3 border border-gray-300 rounded-lg shadow-md max-w-md mx-auto">
-          <h2 className="text-xl font-bold text-center">
-            {selectedSport} Details
-          </h2>
-          <SportDetails
-            sport={selectedSport}
-            data={teamsData.sports[selectedSport]}
-          />
+      {selectedSport && popup && (
+        <div className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50 p-4">
+          {/* Popup Content */}
+          <div className="bg-white rounded-2xl w-[70%] max-w-screen-md max-h-screen p-4 py-8 overflow-hidden relative">
+            {/* Close button */}
+            <h2 className="text-xl font-bold text-center">
+                {selectedSport} Details
+              </h2>
+            <span
+              onClick={handleClose}
+              className="bg-gray-400 rounded-full flex items-center justify-center text-3xl font-bold uppercase absolute right-1.5 top-2 w-8 h-8 text-white hover:bg-blue-200 hover:duration-200 cursor-pointer"
+            >
+              X
+            </span>
+
+            {/* Scrollable Content */}
+            <div className="mt-6 p-3 border border-gray-300 rounded-lg shadow-md h-[60vh] overflow-y-auto custom-scroll">
+              <SportDetails
+                sport={selectedSport}
+                data={teamsData.sports[selectedSport]}
+              />
+            </div>
+          </div>
         </div>
       )}
     </div>
@@ -52,6 +69,13 @@ const SportDetails = ({ sport, data }) => {
           <SportCategory categoryData={data.Single} />
           <h3 className="text-lg font-semibold mt-4">🏸 Double</h3>
           <SportCategory categoryData={data.Double} />
+        </>
+      ) : sport === "Cricket" ? (
+        <>
+          <h3 className="text-lg font-semibold">🏏 Short Boundry</h3>
+          <SportCategory categoryData={data.Short_Boundry} />
+          <h3 className="text-lg font-semibold mt-4">🏏 Long Boundry</h3>
+          <SportCategory categoryData={data.Long_Boundry} />
         </>
       ) : (
         <>

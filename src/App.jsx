@@ -21,7 +21,7 @@ const App = () => {
               <section id="sportings" className="pt-10">
               <Sportings  />
               </section>
-              <section id="scoreboard" className="pt-16">
+              <section id="scoreboard" className="pt-10">
               <Scoreboard  />
               </section>
             </>

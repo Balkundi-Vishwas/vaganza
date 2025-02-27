@@ -52,6 +52,15 @@
         "Male": { "gold": "", "silver": "", "bronze": "" },
         "Female": { "gold": "", "silver": "", "bronze": "" }
       }
+    },
+    "Cricket": {
+      "Short_Boundry":{
+        "Male":{"gold": "", "silver": "", "bronze": ""},
+        "Female":{"gold": "", "silver": "", "bronze": ""}
+      },
+      "Long_Boundry":{
+        "Male":{"gold": "", "silver": "", "bronze": ""}
+      }
     }
   },
     "scores": {
