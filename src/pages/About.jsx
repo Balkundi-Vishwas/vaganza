@@ -1,32 +1,63 @@
-import React, { useEffect, useState } from "react";
-import teamsData from "../../data.json";
+import React from "react";
 
 const About = () => {
-
   return (
-    <div className="min-h-screen bg-gray-100 pt-20">
-      {/* <h1 className="text-4xl font-bold text-center text-blue-700">Yuva Vaganza 2025</h1> */}
-      <img src={`/yuvavaganza.jpeg`} alt={"yuva vaganza"} className="w-[12rem] h-[12rem] object-contain mx-auto rounded-lg shadow-md mt-4 mb-4" />
-      <p className="text-lg text-center text-gray-700 mt-4">
-        Welcome to Yuva Vaganza 2025! This event brings together top teams to showcase their skills and sportsmanship.
-      </p>
-
-      <h2 className="text-2xl font-semibold mt-8">Participating Teams</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-        {teamsData.teams.map((team, index) => (
-          <div key={index} className="p-4 bg-white rounded-lg shadow-md">
-            <h3 className="text-xl font-bold text-gray-800">{team.name}</h3>
-            <p className="text-gray-600 mt-2">{team.description}</p>
-          </div>
-        ))}
+    <div className="min-h-screen bg-gray-100 pt-20 ml-2 mr-2">
+      {/* Organization Info */}
+      <div className="text-center mb-8">
+        <img src="/images/sit_logo.jpeg" alt="Organization Logo" className="w-32 mx-auto mb-4" />
+        <h2 className="text-2xl font-bold">Sree Siddaganga College Of Pharmacy</h2>
+        <p className="text-gray-600">Empowering students through sports and teamwork.</p>
       </div>
 
-      <h2 className="text-2xl font-semibold mt-8">Organizers</h2>
-      <p className="text-lg text-gray-700 mt-2">
-        This event is organized by a dedicated team committed to making Yuva Vaganza 2025 a success. Stay tuned for more updates!
-      </p>
+      {/* Founder Section */}
+      <div className="flex flex-col items-center mb-8">
+        <img src="/images/sivakumar_swamiji.jpeg" alt="Founder" className="w-40 h-40 rounded-full mb-4" />
+        <h2 className="text-xl font-semibold">Dr. Sivakumara Swamy</h2>
+        <p className="text-gray-500">Founder</p>
+      </div>
+
+      {/* Principal and Sports Incharge */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
+        {/* Principal */}
+        <div>
+          <img src="/images/principal_sir.png" alt="Principal" className="w-40 h-40 mx-auto rounded-full mb-4" />
+          <h3 className="text-lg font-semibold">Dr. Suresh V Kulkarni</h3>
+          <p className="text-gray-500">Principal</p>
+        </div>
+        {/* Sports Incharge */}
+        <div>
+          <img src="/images/principal_sir.png" alt="Sports Incharge" className="w-40 h-40 mx-auto rounded-full mb-4" />
+          <h3 className="text-lg font-semibold">Sagar T.R</h3>
+          <p className="text-gray-500">Sports Coordinator</p>
+        </div>
+      </div>
+
+      {/* Organized by Students */}
+      <div className="mt-12 text-center">
+        <h3 className="text-lg font-semibold mb-4">Organized by 4th year B.Pharm Students(2024-25) - Dominators</h3>
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <p className="text-gray-600">Abhishek - 9876543210</p>
+          <p className="text-gray-600">Abhishek - 9876543211</p>
+        </div> */}
+      </div>
+      <div className="mt-12 bg-gray-100 p-6 rounded-lg text-center">
+        <h2 className="text-xl font-semibold mb-4">For More Inquiries</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-1 text-gray-600">
+          <p> Abhishek G R - +91 8904145043</p>
+          <p> Abhishek Balkundi - +91  9986365036</p>
+          <p> Siddesh - +91 9740673221</p>
+        </div>
+      </div>
+
+      {/* Developer Info */}
+      <div className="mt-12 text-center">
+        <h2 className="text-xl font-semibold mb-2">Website Developed By</h2>
+        <p className="text-gray-600">Vishwas Balkundi</p>
+      </div>
     </div>
   );
 };
 
 export default About;
+

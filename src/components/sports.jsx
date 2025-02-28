@@ -3,7 +3,7 @@ import teamsData from "../../data.json";
 
 const Sportings = () => {
   const [selectedSport, setSelectedSport] = useState(null);
-  const [popup, setPopup] = useState(true);
+  // const [popup, setPopup] = useState(true);
 
   const handleSportClick = (sport) => {
     setSelectedSport(selectedSport === sport ? null : sport);
@@ -13,7 +13,7 @@ const Sportings = () => {
   };
   return (
     <div className="p-5">
-      <h2 className="text-center text-2xl font-bold mt-5">🏆 Sportings</h2>
+      <h2 className="text-center text-2xl font-bold mt-5">🏆 Sports</h2>
       <div className="flex flex-wrap justify-center mt-5">
         {Object.keys(teamsData.sports).map((sport, index) => (
           <div
@@ -31,7 +31,7 @@ const Sportings = () => {
         ))}
       </div>
 
-      {selectedSport && popup && (
+      {selectedSport && (
         <div className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50 p-4">
           {/* Popup Content */}
           <div className="bg-white rounded-2xl w-[70%] max-w-screen-md max-h-screen p-4 py-8 overflow-hidden relative">

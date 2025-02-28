@@ -115,7 +115,7 @@ const Navbar = () => {
             to="/"
             className="text-gray-900 hover:text-blue-700 dark:text-white dark:hover:text-blue-500"
           >
-            Sportings
+            Sports
           </Link>
           <Link
             onClick={() => handleScroll("scoreboard")}

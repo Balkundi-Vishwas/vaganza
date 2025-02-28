@@ -2,38 +2,44 @@
     "teams": [
       {
         "name": "Falcons",
-        "description": "Known for their strategic gameplay and swift attacks, the Falcons dominate the field with precision."
-      },
+        "description": "Known for their strategic gameplay and swift attacks, the Falcons dominate the field with precision.",
+        "contributors":["Abhishek and team -> Cricket (🥇)","Abhishek -> Chess (🥈)"]      },
       {
         "name": "Wild Thunders",
-        "description": "An electrifying team with an aggressive playstyle, always pushing the limits of competition."
+        "description": "An electrifying team with an aggressive playstyle, always pushing the limits of competition.",
+        "contributors":[]
       },
       {
         "name": "Team Spirit",
-        "description": "A team that thrives on unity and motivation, proving that teamwork makes the dream work."
+        "description": "A team that thrives on unity and motivation, proving that teamwork makes the dream work.",
+        "contributors":[]
       },
       {
         "name": "Masters",
-        "description": "A seasoned group of players with exceptional skills and years of experience in the sport."
+        "description": "A seasoned group of players with exceptional skills and years of experience in the sport.",
+        "contributors":[]
       },
       {
         "name": "Brutal Soldiers",
-        "description": "Fearless and relentless, the Brutal Soldiers never back down from a challenge."
+        "description": "Fearless and relentless, the Brutal Soldiers never back down from a challenge.",
+        "contributors":[]
       },
       {
         "name": "Dominators",
-        "description": "A powerhouse of talent and determination, always setting new records in the game."
+        "description": "A powerhouse of talent and determination, always setting new records in the game.",
+        "contributors":[]
       },
       {
         "name": "Phantom",
-        "description": "A mysterious team with unpredictable tactics, often surprising their opponents with clever maneuvers."
+        "description": "A mysterious team with unpredictable tactics, often surprising their opponents with clever maneuvers.",
+        "contributors":[]
       },
       {
         "name": "Rising Stars",
-        "description": "A young and energetic team with the potential to become future champions."
+        "description": "A young and energetic team with the potential to become future champions.",
+        "contributors":[]
       }
     ],
-    "sportings" : ["Chess","Carrom","Badminton"],
     "sports": {
     "Chess": {
       "Male": { "gold": "", "silver": "", "bronze": "" },
