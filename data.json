@@ -3,7 +3,7 @@
       {
         "name": "Falcons",
         "description": "Known for their strategic gameplay and swift attacks, the Falcons dominate the field with precision.",
-        "contributors":["Keerthana & Sushmitha has gained 1st place(🥇) in Carrom ","Bhoomika & Lakshmishree has gained 3rd place(🥉) in Carrom","Keerthana & Sushmitha has gained 2nd place(🥈) in Badminton duo"]      },
+        "contributors":["Keerthana & Sushmitha has gained 1st place(🥇) in Carrom ","Bhoomika & Lakshmishree has gained 3rd place(🥉) in Carrom","Keerthana & Sushmitha has gained 2nd place(🥈) in Badminton duo","Shashank & Bijjala has gained 1st place(🥇) in Badmiton duo"]      },
       {
         "name": "Wild Thunders",
         "description": "An electrifying team with an aggressive playstyle, always pushing the limits of competition.",
@@ -22,12 +22,12 @@
       {
         "name": "Brutal Soldiers",
         "description": "Fearless and relentless, the Brutal Soldiers never back down from a challenge.",
-        "contributors":[]
+        "contributors":["Hariprasad & Zubir has gained 3rd place(🥉) in Badminton duo "]
       },
       {
         "name": "Dominators",
         "description": "A powerhouse of talent and determination, always setting new records in the game.",
-        "contributors":["Dhanush gowda has gained 1st place(🥇) in  chess ♟️","Bhuvan.H.B has gained 3rd place (🥉) in chess ♟️","Gaganashree & Sandya has gained 3rd place(🥉) in Badminton duo"]
+        "contributors":["Dhanush gowda has gained 1st place(🥇) in  chess ♟️","Bhuvan.H.B has gained 3rd place (🥉) in chess ♟️","Gaganashree & Sandya has gained 3rd place(🥉) in Badminton duo","Koushal & Hemanth.M.C has gained 2nd place(🥈) in Badminton duo"]
       },
       {
         "name": "Phantom",
@@ -70,12 +70,12 @@
     }
   },
     "scores": {
-      "Falcons": { "gold": 1, "silver": 1, "bronze": 1 },
+      "Falcons": { "gold": 2, "silver": 1, "bronze": 1 },
       "Wild Thunders": { "gold": 0, "silver": 0, "bronze": 0 },
       "Team Spirit": { "gold": 1, "silver": 2, "bronze": 0 },
       "Masters": { "gold": 0, "silver": 0, "bronze": 1 },
-      "Brutal Soldiers": { "gold": 0, "silver": 0, "bronze": 0 },
-      "Dominators": { "gold": 1, "silver": 0, "bronze": 2 },
+      "Brutal Soldiers": { "gold": 0, "silver": 0, "bronze": 1 },
+      "Dominators": { "gold": 1, "silver": 1, "bronze": 2 },
       "Phantom": { "gold": 0, "silver": 1, "bronze": 0 },
       "Rising Stars": { "gold": 1, "silver": 0, "bronze": 0 }
     }
