@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-gray-100 pt-20 ml-2 mr-2">
+    <div className="min-h-screen bg-gray-100 pt-24 ml-2 mr-2">
       {/* Organization Info */}
       <div className="text-center mb-8">
         <img src="/images/sit_logo.jpeg" alt="Organization Logo" className="w-32 mx-auto mb-4" />
@@ -53,7 +53,11 @@ const About = () => {
       {/* Developer Info */}
       <div className="mt-12 text-center">
         <h2 className="text-xl font-semibold mb-2">Website Developed By</h2>
-        <p className="text-gray-600">Vishwas Balkundi</p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-1 text-gray-600">
+          <p> Vishwas Balkundi</p>
+          <p> vishwasbalkundi06@gmail.com</p>
+          <p> +91 9513706439</p>
+        </div>
       </div>
     </div>
   );
