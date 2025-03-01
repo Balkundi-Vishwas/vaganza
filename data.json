@@ -27,7 +27,7 @@
       {
         "name": "Dominators",
         "description": "A powerhouse of talent and determination, always setting new records in the game.",
-        "contributors":[]
+        "contributors":["dhanush gowda -> chess (🥇)"]
       },
       {
         "name": "Phantom",
@@ -42,8 +42,8 @@
     ],
     "sports": {
     "Chess": {
-      "Male": { "gold": "", "silver": "", "bronze": "" },
-      "Female": { "gold": "", "silver": "", "bronze": "" }
+      "Male": { "gold": "dominators", "silver": "team spirit", "bronze": "dominators" },
+      "Female": { "gold": "rising stars", "silver": "team spirit", "bronze": "master's" }
     },
     "Carrom": {
       "Male": { "gold": "", "silver": "", "bronze": "" },
