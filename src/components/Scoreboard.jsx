@@ -10,7 +10,7 @@ const Scoreboard = () => {
   };
 
   return (
-    <div className="p-5">
+    <div className="p-5 mb-12">
       <h2 className="text-center text-2xl font-bold">📊 Team Scoreboard</h2>
       <div className="overflow-x-auto">
         <table className="w-3/4 mx-auto mt-5 border-collapse border border-gray-300">

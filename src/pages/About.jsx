@@ -27,7 +27,7 @@ const About = () => {
         </div>
         {/* Sports Incharge */}
         <div>
-          <img src="/images/principal_sir.png" alt="Sports Incharge" className="w-40 h-40 mx-auto rounded-full mb-4" />
+          <img src="/images/sports_sir.jpeg" alt="Sports Incharge" className="w-40 h-40 mx-auto rounded-full mb-4" />
           <h3 className="text-lg font-semibold">Sagar T.R</h3>
           <p className="text-gray-500">Sports Coordinator</p>
         </div>
@@ -51,7 +51,7 @@ const About = () => {
       </div>
 
       {/* Developer Info */}
-      <div className="mt-12 text-center">
+      <div className="mt-12 mb-12 text-center">
         <h2 className="text-xl font-semibold mb-2">Website Developed By</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-1 text-gray-600">
           <p> Vishwas Balkundi</p>
