@@ -42,8 +42,8 @@
     ],
     "sports": {
     "Chess": {
-      "Male": { "gold": "", "silver": "", "bronze": "" },
-      "Female": { "gold": "", "silver": "", "bronze": "" }
+      "Male": { "gold": "dominators", "silver": "team spirit", "bronze": "dominators" },
+      "Female": { "gold": "rising stars", "silver": "team spirit", "bronze": "master's" }
     },
     "Carrom": {
       "Male": { "gold": "", "silver": "", "bronze": "" },
