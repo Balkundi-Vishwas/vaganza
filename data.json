@@ -3,7 +3,7 @@
       {
         "name": "Falcons",
         "description": "Known for their strategic gameplay and swift attacks, the Falcons dominate the field with precision.",
-        "contributors":["Keerthana & Sushmitha has gained 1st place(🥇) in Carrom ","Bhoomika & Lakshmishree has gained 3rd place(🥉) in Carrom","Keerthana & Sushmitha has gained 2nd place(🥈) in Badminton duo","Shashank & Bijjala has gained 1st place(🥇) in Badmiton duo",]      },
+        "contributors":["Keerthana & Sushmitha has gained 1st place(🥇) in Carrom ","Bhoomika & Lakshmishree has gained 3rd place(🥉) in Carrom","Keerthana & Sushmitha has gained 2nd place(🥈) in Badminton duo","Shashank & Bijjala has gained 1st place(🥇) in Badmiton duo","Shashank has gained 1st place(🥇) in badminton solo"]      },
       {
         "name": "Wild Thunders",
         "description": "An electrifying team with an aggressive playstyle, always pushing the limits of competition.",
@@ -22,12 +22,12 @@
       {
         "name": "Brutal Soldiers",
         "description": "Fearless and relentless, the Brutal Soldiers never back down from a challenge.",
-        "contributors":["Hariprasad & Zubir has gained 3rd place(🥉) in Badminton duo "]
+        "contributors":["Hariprasad & Zubir has gained 3rd place(🥉) in Badminton duo ","Hariprasad has gained 2nd place(🥈) in badminton solo"]
       },
       {
         "name": "Dominators",
         "description": "A powerhouse of talent and determination, always setting new records in the game.",
-        "contributors":["Dhanush gowda has gained 1st place(🥇) in  chess ♟️","Bhuvan.H.B has gained 3rd place (🥉) in chess ♟️","Gaganashree & Sandya has gained 3rd place(🥉) in Badminton duo","Koushal & Hemanth.M.C has gained 2nd place(🥈) in Badminton duo","Ananya.B.S has gained 3rd place(🥉) in Badminton solo"]
+        "contributors":["Dhanush gowda has gained 1st place(🥇) in  chess ♟️","Bhuvan.H.B has gained 3rd place (🥉) in chess ♟️","Gaganashree & Sandya has gained 3rd place(🥉) in Badminton duo","Koushal & Hemanth.M.C has gained 2nd place(🥈) in Badminton duo","Ananya.B.S has gained 3rd place(🥉) in Badminton solo","Koushal.G has gained 3rd place(🥉) in Badminton solo"]
       },
       {
         "name": "Phantom",
@@ -70,12 +70,12 @@
     }
   },
     "scores": {
-      "Falcons": { "gold": 2, "silver": 1, "bronze": 1 },
+      "Falcons": { "gold": 3, "silver": 1, "bronze": 1 },
       "Wild Thunders": { "gold": 0, "silver": 0, "bronze": 0 },
       "Team Spirit": { "gold": 2, "silver": 3, "bronze": 0 },
       "Masters": { "gold": 0, "silver": 0, "bronze": 1 },
-      "Brutal Soldiers": { "gold": 0, "silver": 0, "bronze": 1 },
-      "Dominators": { "gold": 1, "silver": 1, "bronze": 3 },
+      "Brutal Soldiers": { "gold": 0, "silver": 1, "bronze": 1 },
+      "Dominators": { "gold": 1, "silver": 1, "bronze": 4 },
       "Phantom": { "gold": 0, "silver": 1, "bronze": 0 },
       "Rising Stars": { "gold": 1, "silver": 0, "bronze": 0 }
     }
