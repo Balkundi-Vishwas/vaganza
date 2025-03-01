@@ -3,7 +3,7 @@
       {
         "name": "Falcons",
         "description": "Known for their strategic gameplay and swift attacks, the Falcons dominate the field with precision.",
-        "contributors":[]      },
+        "contributors":["Keerthana & Sushmitha has gained 1st place(🥇) in Carrom ","Bhoomika & Lakshmishree has gained 3rd place(🥉) in Carrom","Keerthana & Sushmitha has gained 2nd place(🥈) in Badminton duo"]      },
       {
         "name": "Wild Thunders",
         "description": "An electrifying team with an aggressive playstyle, always pushing the limits of competition.",
@@ -12,12 +12,12 @@
       {
         "name": "Team Spirit",
         "description": "A team that thrives on unity and motivation, proving that teamwork makes the dream work.",
-        "contributors":[]
+        "contributors":["Harshitha.B has gained 2nd place(🥈) in chess ♟️","Bhavyashree & Poorvika has gained 1st place(🥇) in Badminton duo"]
       },
       {
         "name": "Masters",
         "description": "A seasoned group of players with exceptional skills and years of experience in the sport.",
-        "contributors":[]
+        "contributors":["Srujana has gained 3rd place(🥉) in chess ♟️","Harsha.C.N has gained 2nd place(🥈) in chess ♟️"]
       },
       {
         "name": "Brutal Soldiers",
@@ -27,36 +27,36 @@
       {
         "name": "Dominators",
         "description": "A powerhouse of talent and determination, always setting new records in the game.",
-        "contributors":["Dhanush gowda has gained 1st place(🥇) in  chess ♟️","Bhuvan.H.B has gained 3rd place (🥉) in chess ♟️"]
+        "contributors":["Dhanush gowda has gained 1st place(🥇) in  chess ♟️","Bhuvan.H.B has gained 3rd place (🥉) in chess ♟️","Gaganashree & Sandya has gained 3rd place(🥉) in Badminton duo"]
       },
       {
         "name": "Phantom",
         "description": "A mysterious team with unpredictable tactics, often surprising their opponents with clever maneuvers.",
-        "contributors":[]
+        "contributors":["Thanushree & Madiha Anjum has gained 2nd place(🥈) in Carrom"]
       },
       {
         "name": "Rising Stars",
         "description": "A young and energetic team with the potential to become future champions.",
-        "contributors":["chess (🥇)"]
+        "contributors":["Sanmathi has gained 1st place(🥇) in chess ♟️"]
       }
     ],
     "sports": {
     "Chess": {
-      "Male": { "gold": "dominators", "silver": "team spirit", "bronze": "dominators" },
-      "Female": { "gold": "rising stars", "silver": "team spirit", "bronze": "master's" }
+      "Male": { "gold": "Dominators", "silver": "Team Spirit", "bronze": "Dominators" },
+      "Female": { "gold": "Rising Stars", "silver": "Team Spirit", "bronze": "Master's" }
     },
     "Carrom": {
       "Male": { "gold": "", "silver": "", "bronze": "" },
-      "Female": { "gold": "", "silver": "", "bronze": "" }
+      "Female": { "gold": "Falcons", "silver": "Phantom", "bronze": "Falcons" }
     },
     "Badminton": {
       "Single": {
-        "Male": { "gold": "", "silver": "", "bronze": "" },
-        "Female": { "gold": "", "silver": "", "bronze": "" }
+        "Male": { "gold": "Falcons", "silver": "Brutal Soldiers", "bronze": "Dominators" },
+        "Female": { "gold": "Team Spirit", "silver": "Team Spirit ", "bronze": "Dominators" }
       },
       "Double": {
-        "Male": { "gold": "", "silver": "", "bronze": "" },
-        "Female": { "gold": "", "silver": "", "bronze": "" }
+        "Male": { "gold": "Falcons", "silver": "Dominators", "bronze": "Brutal Soldiers" },
+        "Female": { "gold": "Team Spirit", "silver": "Falcons", "bronze": "Dominators" }
       }
     },
     "Cricket": {
@@ -70,14 +70,14 @@
     }
   },
     "scores": {
-      "Falcons": { "gold": 6, "silver": 6, "bronze": 3 },
-      "Wild Thunders": { "gold": 2, "silver": 3, "bronze": 1 },
-      "Team Spirit": { "gold": 3, "silver": 3, "bronze": 3 },
-      "Masters": { "gold": 0, "silver": 0, "bronze": 0 },
+      "Falcons": { "gold": 1, "silver": 1, "bronze": 1 },
+      "Wild Thunders": { "gold": 0, "silver": 0, "bronze": 0 },
+      "Team Spirit": { "gold": 1, "silver": 2, "bronze": 0 },
+      "Masters": { "gold": 0, "silver": 0, "bronze": 1 },
       "Brutal Soldiers": { "gold": 0, "silver": 0, "bronze": 0 },
-      "Dominators": { "gold": 0, "silver": 0, "bronze": 0 },
-      "Phantom": { "gold": 0, "silver": 0, "bronze": 0 },
-      "Rising Stars": { "gold": 5, "silver": 5, "bronze": 0 }
+      "Dominators": { "gold": 1, "silver": 0, "bronze": 2 },
+      "Phantom": { "gold": 0, "silver": 1, "bronze": 0 },
+      "Rising Stars": { "gold": 1, "silver": 0, "bronze": 0 }
     }
   }
   
