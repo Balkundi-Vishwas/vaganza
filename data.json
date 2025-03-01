@@ -3,11 +3,11 @@
       {
         "name": "Falcons",
         "description": "Known for their strategic gameplay and swift attacks, the Falcons dominate the field with precision.",
-        "contributors":["Abhishek and team -> Cricket (🥇)","Abhishek -> Chess (🥈)"]      },
+        "contributors":["Abhishek and team -> Cricket (🥇)","Abhishek -> Chess (🥈)","Abhishek -> Carrom (🥇)"]      },
       {
         "name": "Wild Thunders",
         "description": "An electrifying team with an aggressive playstyle, always pushing the limits of competition.",
-        "contributors":[]
+        "contributors":["Abhishek and team -> Cricket (🥇)"]
       },
       {
         "name": "Team Spirit",
@@ -70,7 +70,7 @@
     }
   },
     "scores": {
-      "Falcons": { "gold": 4, "silver": 4, "bronze": 1 },
+      "Falcons": { "gold": 6, "silver": 6, "bronze": 3 },
       "Wild Thunders": { "gold": 2, "silver": 3, "bronze": 1 },
       "Team Spirit": { "gold": 3, "silver": 3, "bronze": 3 },
       "Masters": { "gold": 0, "silver": 0, "bronze": 0 },
