@@ -24,22 +24,20 @@ const About = () => {
           <img src="/images/principal_sir.png" alt="Principal" className="w-40 h-40 mx-auto rounded-full mb-4" />
           <h3 className="text-lg font-semibold">Dr. Suresh V Kulkarni</h3>
           <p className="text-gray-500">Principal</p>
+          <p className="text-gray-500">+91 94492945721</p>
         </div>
         {/* Sports Incharge */}
         <div>
           <img src="/images/sports_sir.jpeg" alt="Sports Incharge" className="w-40 h-40 mx-auto rounded-full mb-4" />
           <h3 className="text-lg font-semibold">Sagar T.R</h3>
           <p className="text-gray-500">Sports Coordinator</p>
+          <p className="text-gray-500">+91 9036776636</p>
         </div>
       </div>
 
       {/* Organized by Students */}
       <div className="mt-12 text-center">
         <h3 className="text-lg font-semibold mb-4">Organized by 4th year B.Pharm Students(2024-25) - Dominators</h3>
-        {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <p className="text-gray-600">Abhishek - 9876543210</p>
-          <p className="text-gray-600">Abhishek - 9876543211</p>
-        </div> */}
       </div>
       <div className="mt-12 bg-gray-100 p-6 rounded-lg text-center">
         <h2 className="text-xl font-semibold mb-4">For More Inquiries</h2>
