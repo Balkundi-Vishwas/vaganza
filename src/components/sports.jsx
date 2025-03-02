@@ -34,7 +34,7 @@ const Sportings = () => {
       {selectedSport && (
         <div className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50 p-4">
           {/* Popup Content */}
-          <div className="bg-white rounded-2xl w-[70%] max-w-screen-md max-h-screen p-4 py-8 overflow-hidden relative">
+          <div className="bg-white rounded-2xl w-[80%] max-w-screen-md max-h-screen p-4 py-8 overflow-hidden relative">
             {/* Close button */}
             <h2 className="text-xl font-bold text-center">
                 {selectedSport} Details

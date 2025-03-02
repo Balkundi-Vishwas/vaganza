@@ -53,7 +53,7 @@ const TeamList = () => {
               </p>
               <h2 className="text-xl font-semibold mt-1 mb-1">Contributors:</h2>
               {selectedTeam.contributors.map((cont,index) => (
-                <p className="text-lg"> {cont}</p>
+                <p className="text-lg mb-2"> {cont}</p>
               ))}
             </div>
           </div>

@@ -2,8 +2,8 @@
     "teams": [
       {
         "name": "Falcons",
-        "description": "They are Pharm-D Seniors","Known for their strategic gameplay and swift attacks, the Falcons dominate the field with precision.",
-        "contributors":["Keerthana & Sushmitha has gained 1st place(🥇) in Carrom ","Bhoomika & Lakshmishree has gained 3rd place(🥉) in Carrom","Keerthana & Sushmitha has gained 2nd place(🥈) in Badminton duo","Shashank & Bijjala has gained 1st place(🥇) in Badmiton duo","Shashank has gained 1st place(🥇) in badminton solo"]      },
+        "description": "They are Pharm-D Seniors. Known for their strategic gameplay and swift attacks, the Falcons dominate the field with precision.",
+        "contributors":["Keerthana & Sushmitha has gained 1st place(🥇) in Carrom. ","Bhoomika & Lakshmishree has gained 3rd place(🥉) in Carrom.","Keerthana & Sushmitha has gained 2nd place(🥈) in Badminton duo.","Shashank & Bijjala has gained 1st place(🥇) in Badmiton duo.","Shashank has gained 1st place(🥇) in badminton solo."]      },
       {
         "name": "Wild Thunders",
         "description": "An electrifying team with an aggressive playstyle, always pushing the limits of competition.",
@@ -12,32 +12,32 @@
       {
         "name": "Team Spirit",
         "description": "A team that thrives on unity and motivation, proving that teamwork makes the dream work.",
-        "contributors":["Harshitha.B has gained 2nd place(🥈) in chess ♟️","Harsha.C.N has gained 2nd place(🥈) in chess ♟️","Bhavyashree & Poorvika has gained 1st place(🥇) in Badminton duo","Bhavyashree has gained 1st place(🥇) in Badminton solo","Poorvika has gained 2nd place(🥈) in Badminton solo"]
+        "contributors":["Harshitha.B has gained 2nd place(🥈) in chess ♟️.","Harsha.C.N has gained 2nd place(🥈) in chess ♟️.","Bhavyashree & Poorvika has gained 1st place(🥇) in Badminton duo.","Bhavyashree has gained 1st place(🥇) in Badminton solo.","Poorvika has gained 2nd place(🥈) in Badminton solo."]
       },
       {
         "name": "Masters",
         "description": "A seasoned group of players with exceptional skills and years of experience in the sport.",
-        "contributors":["Srujana has gained 3rd place(🥉) in chess ♟️"]
+        "contributors":["Srujana has gained 3rd place(🥉) in chess ♟️."]
       },
       {
         "name": "Brutal Soldiers",
         "description": "Fearless and relentless, the Brutal Soldiers never back down from a challenge.",
-        "contributors":["Hariprasad & Zubir has gained 3rd place(🥉) in Badminton duo ","Hariprasad has gained 2nd place(🥈) in badminton solo"]
+        "contributors":["Hariprasad & Zubir has gained 3rd place(🥉) in Badminton duo. ","Hariprasad has gained 2nd place(🥈) in badminton solo."]
       },
       {
         "name": "Dominators",
         "description": "A powerhouse of talent and determination, always setting new records in the game.",
-        "contributors":["Dhanush gowda has gained 1st place(🥇) in  chess ♟️","Bhuvan.H.B has gained 3rd place (🥉) in chess ♟️","Gaganashree & Sandya has gained 3rd place(🥉) in Badminton duo","Koushal & Hemanth.M.C has gained 2nd place(🥈) in Badminton duo","Ananya.B.S has gained 3rd place(🥉) in Badminton solo","Koushal.G has gained 3rd place(🥉) in Badminton solo"]
+        "contributors":["Dhanush gowda has gained 1st place(🥇) in  chess ♟️.","Bhuvan.H.B has gained 3rd place (🥉) in chess ♟️.","Gaganashree & Sandya has gained 3rd place(🥉) in Badminton duo.","Koushal & Hemanth.M.C has gained 2nd place(🥈) in Badminton duo.","Ananya.B.S has gained 3rd place(🥉) in Badminton solo.","Koushal.G has gained 3rd place(🥉) in Badminton solo."]
       },
       {
         "name": "Phantom",
         "description": "A mysterious team with unpredictable tactics, often surprising their opponents with clever maneuvers.",
-        "contributors":["Thanushree & Madiha Anjum has gained 2nd place(🥈) in Carrom"]
+        "contributors":["Thanushree & Madiha Anjum has gained 2nd place(🥈) in Carrom."]
       },
       {
         "name": "Rising Stars",
         "description": "A young and energetic team with the potential to become future champions.",
-        "contributors":["Sanmathi has gained 1st place(🥇) in chess ♟️"]
+        "contributors":["Sanmathi has gained 1st place(🥇) in chess ♟️."]
       }
     ],
     "sports": {
