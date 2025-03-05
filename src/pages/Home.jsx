@@ -27,7 +27,7 @@ const Homepage = () => {
         animate={{ opacity: 1, y: 0 }} 
         transition={{ duration: 0.6 }}
       >
-        <h3 className="text-xl font-bold text-blue-700 mb-4">Yuva Vaganza - 2025</h3>
+        <h3 className="text-xl font-bold text-[#17202a] mb-4">Yuva Vaganza - 2025</h3>
         <p>
           Yuva Vaganza is the premier sporting event of Sree Siddaganga College Of Pharmacy, designed to ignite the competitive spirit among pharmacy students.
           This grand annual event brings together talent, determination, and teamwork, fostering a culture of sportsmanship and excellence.
