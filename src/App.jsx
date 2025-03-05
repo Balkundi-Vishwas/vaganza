@@ -5,6 +5,7 @@ import TeamList from "./components/Teamlist";
 import Scoreboard from "./components/Scoreboard";
 import Sportings from "./components/sports";
 import About from "./pages/About";
+import Homepage from "./pages/Home";
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/about" element={<About />} />
-          <Route path="/" element={
+          {/* <Route path="/" element={
             <>
               <section id="teams" className="pt-20">
               <TeamList />
@@ -25,7 +26,11 @@ const App = () => {
               <Scoreboard  />
               </section>
             </>
-          } />
+          } /> */}
+          <Route path="/*" element={<Homepage />}></Route>
+          <Route path="/teams" element={<TeamList />}></Route>
+          <Route path="/sports" element={<Sportings />}></Route>
+          <Route path="/scoreboard" element={<Scoreboard />}></Route>
         </Routes>
       </div>
     </Router>

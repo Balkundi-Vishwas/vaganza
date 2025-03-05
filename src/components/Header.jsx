@@ -104,22 +104,25 @@ const Navbar = () => {
             About
           </Link>
           <Link
-            onClick={() => handleScroll("teams")}
             to="/"
+            className="text-gray-900 hover:text-blue-700 dark:text-white dark:hover:text-blue-500"
+          >
+            Home
+          </Link>
+          <Link
+            to="/teams"
             className="text-gray-900 hover:text-blue-700 dark:text-white dark:hover:text-blue-500"
           >
             Teams
           </Link>
           <Link
-            onClick={() => handleScroll("sportings")}
-            to="/"
+            to="/sports"
             className="text-gray-900 hover:text-blue-700 dark:text-white dark:hover:text-blue-500"
           >
             Sports
           </Link>
           <Link
-            onClick={() => handleScroll("scoreboard")}
-            to="/"
+            to="/Scoreboard"
             className="text-gray-900 hover:text-blue-700 dark:text-white dark:hover:text-blue-500"
           >
             Scoreboard
@@ -138,27 +141,32 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link
-                onClick={() => handleScroll("teams")}
-                to="/"
+              <Link onClick={handleToggle}
+              to="/"
+              className="block px-4 py-2 text-gray-900 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+            >
+              Home
+            </Link>
+            </li>
+            <li>
+              <Link onClick={handleToggle}
+                to="/teams"
                 className="block px-4 py-2 text-gray-900 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
               >
                 Teams
               </Link>
             </li>
             <li>
-              <Link
-                onClick={() => handleScroll("sportings")}
-                to="/"
+              <Link onClick={handleToggle}
+                to="/sports"
                 className="block px-4 py-2 text-gray-900 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
               >
-                Sportings
+                Sports
               </Link>
             </li>
             <li>
-              <Link
-                onClick={() => handleScroll("scoreboard")}
-                to="/"
+              <Link onClick={handleToggle}
+                to="/scoreboard"
                 className="block px-4 py-2 text-gray-900 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
               >
                 Scoreboard
