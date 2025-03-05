@@ -15,7 +15,7 @@ const Sportings = () => {
 
   return (
     <div className="pt-20 p-5">
-      <h2 className="text-center text-3xl font-bold text-blue-600">🏅 Sports</h2>
+      <h2 className="text-center text-3xl font-bold text-[#17202a]">🏅 Sports</h2>
       <p className="text-center text-gray-600 mt-2">Click on a sport to see details!</p>
 
       <div className="flex flex-wrap justify-center mt-6 gap-6">

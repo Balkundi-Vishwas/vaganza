@@ -6,6 +6,7 @@ import Scoreboard from "./components/Scoreboard";
 import Sportings from "./components/sports";
 import About from "./pages/About";
 import Homepage from "./pages/Home";
+import Footer from "./components/footer";
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
           <Route path="/sports" element={<Sportings />}></Route>
           <Route path="/scoreboard" element={<Scoreboard />}></Route>
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

@@ -97,17 +97,17 @@ const Navbar = () => {
 
         {/* Navbar Items for Large Screens */}
         <div className="hidden lg:flex space-x-8">
+        <Link
+            to="/"
+            className="text-gray-900 hover:text-blue-700 dark:text-white dark:hover:text-blue-500"
+          >
+            Home
+          </Link>
           <Link
             to="/about"
             className="text-gray-900 hover:text-blue-700 dark:text-white dark:hover:text-blue-500"
           >
             About
-          </Link>
-          <Link
-            to="/"
-            className="text-gray-900 hover:text-blue-700 dark:text-white dark:hover:text-blue-500"
-          >
-            Home
           </Link>
           <Link
             to="/teams"
@@ -132,6 +132,14 @@ const Navbar = () => {
         {/* Automatically Visible Dropdown Menu for Small Screens */}
         <div className={`${isOpen ? "block" : "hidden"} lg:hidden w-full mt-4`}>
           <ul className="border border-gray-200 dark:border-gray-700 rounded-lg bg-gray-50 dark:bg-gray-800">
+          <li>
+              <Link onClick={handleToggle}
+              to="/"
+              className="block px-4 py-2 text-gray-900 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+            >
+              Home
+            </Link>
+            </li>
             <li>
               <Link onClick={handleToggle}
                 to="/about"
@@ -139,14 +147,6 @@ const Navbar = () => {
               >
                 About
               </Link>
-            </li>
-            <li>
-              <Link onClick={handleToggle}
-              to="/"
-              className="block px-4 py-2 text-gray-900 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
-            >
-              Home
-            </Link>
             </li>
             <li>
               <Link onClick={handleToggle}
