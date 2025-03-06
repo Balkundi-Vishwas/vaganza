@@ -61,7 +61,7 @@ const Sportings = () => {
               </button>
 
               {/* Sport Details */}
-              <h2 className="text-3xl font-bold text-center text-blue-700">{selectedSport} Details</h2>
+              <h2 className="text-3xl font-bold text-center text-[#17202a]">{selectedSport} Details</h2>
               <div className="mt-4 p-4 border border-gray-300 rounded-lg shadow-md h-[50vh] overflow-y-auto custom-scroll">
                 <SportDetails sport={selectedSport} data={teamsData.sports[selectedSport]} />
               </div>

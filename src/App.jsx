@@ -11,34 +11,21 @@ import Footer from "./components/footer";
 const App = () => {
   return (
     <Router>
-      <div className="min-h-screen bg-gray-100">
+      <div className="flex flex-col min-h-screen bg-gray-100">
         <Header />
-        <Routes>
-          <Route path="/about" element={<About />} />
-          {/* <Route path="/" element={
-            <>
-              <section id="teams" className="pt-20">
-              <TeamList />
-              </section>
-              <section id="sportings" className="pt-10">
-              <Sportings  />
-              </section>
-              <section id="scoreboard" className="pt-10">
-              <Scoreboard  />
-              </section>
-            </>
-          } /> */}
-          <Route path="/*" element={<Homepage />}></Route>
-          <Route path="/teams" element={<TeamList />}></Route>
-          <Route path="/sports" element={<Sportings />}></Route>
-          <Route path="/scoreboard" element={<Scoreboard />}></Route>
-        </Routes>
+        <main className="flex-1">
+          <Routes>
+            <Route path="/about" element={<About />} />
+            <Route path="/*" element={<Homepage />} />
+            <Route path="/teams" element={<TeamList />} />
+            <Route path="/sports" element={<Sportings />} />
+            <Route path="/scoreboard" element={<Scoreboard />} />
+          </Routes>
+        </main>
         <Footer />
       </div>
     </Router>
   );
 };
-
-
 
 export default App;

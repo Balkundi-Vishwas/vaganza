@@ -70,7 +70,7 @@ const TeamList = () => {
               </button>
 
               {/* Team Details */}
-              <h1 className="text-3xl font-bold text-center text-blue-700">
+              <h1 className="text-3xl font-bold text-center text-[#17202a]">
                 {selectedTeam.name}
               </h1>
               <div className="mt-4 p-4 border border-gray-300 rounded-lg shadow-md h-[50vh] overflow-y-auto custom-scroll">
