@@ -67,6 +67,30 @@
       "Long_Boundry":{
         "Male":{"gold": "", "silver": "", "bronze": ""}
       }
+    },
+    "Kho-Kho":{
+      "Male": { "gold": "", "silver": "", "bronze": "" },
+      "Female": { "gold": "", "silver": "", "bronze": "" }
+    },
+    "Athletics":{
+      "hundred_meters":{
+        "Male":{"gold": "", "silver": "", "bronze": ""},
+        "Female":{"gold": "", "silver": "", "bronze": ""}
+      },
+      "Relay":{
+        "Male":{"gold": "", "silver": "", "bronze": ""},
+        "Female":{"gold": "", "silver": "", "bronze": ""}
+      },
+      "Long_Jump":{
+          "Male":{"gold": "", "silver": "", "bronze": ""},
+          "Female":{"gold": "", "silver": "", "bronze": ""}
+      }
+  },
+    "Volley ball":{
+      "Male": { "gold": "", "silver": "", "bronze": "" }
+    },
+    "Hand ball":{
+      "Female": { "gold": "", "silver": "", "bronze": "" }
     }
   },
     "scores": {

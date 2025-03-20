@@ -90,6 +90,15 @@ const SportDetails = ({ sport, data }) => {
           <h3 className="text-lg font-semibold mt-4">🏏 Long Boundary</h3>
           <SportCategory categoryData={data.Long_Boundry} />
         </>
+      ) : sport === "Athletics" ? (
+        <>
+          <h3 className="text-lg font-semibold">100 Meters</h3>
+          <SportCategory categoryData={data.hundred_meters} />
+          <h3 className="text-lg font-semibold mt-4">Relay</h3>
+          <SportCategory categoryData={data.Relay} />
+          <h3 className="text-lg font-semibold mt-4">Long Jump</h3>
+          <SportCategory categoryData={data.Long_Jump} />
+        </>
       ) : (
         <SportCategory categoryData={data} />
       )}
