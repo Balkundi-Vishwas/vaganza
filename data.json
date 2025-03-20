@@ -1,49 +1,82 @@
 {
-    "teams": [
-      {
-        "name": "Falcons",
-        "description": "They are Pharm-D Seniors. Known for their strategic gameplay and swift attacks, the Falcons dominate the field with precision.",
-        "contributors":["Keerthana & Sushmitha has gained 1st place(🥇) in Carrom. ","Bhoomika & Lakshmishree has gained 3rd place(🥉) in Carrom.","Keerthana & Sushmitha has gained 2nd place(🥈) in Badminton duo.","Shashank & Bijjala has gained 1st place(🥇) in Badmiton duo.","Shashank has gained 1st place(🥇) in badminton solo."]      },
-      {
-        "name": "Wild Thunders",
-        "description": "They are 1st B-Pharm students. Known for their an electrifying team with an aggressive playstyle, always pushing the limits of competition.",
-        "contributors":[]
-      },
-      {
-        "name": "Team Spirit",
-        "description": "They are 3rd B-Pharm students.A team that thrives on unity and motivation, proving that teamwork makes the dream work.",
-        "contributors":["Harshitha.B has gained 2nd place(🥈) in chess ♟️.","Harsha.C.N has gained 2nd place(🥈) in chess ♟️.","Bhavyashree & Poorvika has gained 1st place(🥇) in Badminton duo.","Bhavyashree has gained 1st place(🥇) in Badminton solo.","Poorvika has gained 2nd place(🥈) in Badminton solo."]
-      },
-      {
-        "name": "Masters",
-        "description": "They are M-Pharm students. A seasoned group of players with exceptional skills and years of experience in the sport.",
-        "contributors":["Srujana has gained 3rd place(🥉) in chess ♟️."]
-      },
-      {
-        "name": "Brutal Soldiers",
-        "description": "Theyare D-Pharm students. Known for their Fearless and relentless, the Brutal Soldiers never back down from a challenge.",
-        "contributors":["Hariprasad & Zubir has gained 3rd place(🥉) in Badminton duo. ","Hariprasad has gained 2nd place(🥈) in badminton solo."]
-      },
-      {
-        "name": "Dominators",
-        "description": "They are 4th B-Pharm students. A powerhouse of talent and determination, always setting new records in the game.",
-        "contributors":["Dhanush gowda has gained 1st place(🥇) in  chess ♟️.","Bhuvan.H.B has gained 3rd place (🥉) in chess ♟️.","Gaganashree & Sandya has gained 3rd place(🥉) in Badminton duo.","Koushal & Hemanth.M.C has gained 2nd place(🥈) in Badminton duo.","Ananya.B.S has gained 3rd place(🥉) in Badminton solo.","Koushal.G has gained 3rd place(🥉) in Badminton solo."]
-      },
-      {
-        "name": "Phantom",
-        "description": "They are Pharm-D Juniors. A mysterious team with unpredictable tactics, often surprising their opponents with clever maneuvers.",
-        "contributors":["Thanushree & Madiha Anjum has gained 2nd place(🥈) in Carrom."]
-      },
-      {
-        "name": "Rising Stars",
-        "description": "They are 2nd B-Pharm students. A young and energetic team with the potential to become future champions.",
-        "contributors":["Sanmathi has gained 1st place(🥇) in chess ♟️."]
-      }
-    ],
-    "sports": {
+  "teams": [
+    {
+      "name": "Falcons",
+      "description": "They are Pharm-D Seniors. Known for their strategic gameplay and swift attacks, the Falcons dominate the field with precision.",
+      "contributors": [
+        "Keerthana & Sushmitha has gained 1st place(🥇) in Carrom. ",
+        "Bhoomika & Lakshmishree has gained 3rd place(🥉) in Carrom.",
+        "Keerthana & Sushmitha has gained 2nd place(🥈) in Badminton duo.",
+        "Shashank & Bijjala has gained 1st place(🥇) in Badmiton duo.",
+        "Shashank has gained 1st place(🥇) in badminton solo."
+      ]
+    },
+    {
+      "name": "Wild Thunders",
+      "description": "They are 1st B-Pharm students. Known for their an electrifying team with an aggressive playstyle, always pushing the limits of competition.",
+      "contributors": []
+    },
+    {
+      "name": "Team Spirit",
+      "description": "They are 3rd B-Pharm students.A team that thrives on unity and motivation, proving that teamwork makes the dream work.",
+      "contributors": [
+        "Harshitha.B has gained 2nd place(🥈) in chess ♟️.",
+        "Harsha.C.N has gained 2nd place(🥈) in chess ♟️.",
+        "Bhavyashree & Poorvika has gained 1st place(🥇) in Badminton duo.",
+        "Bhavyashree has gained 1st place(🥇) in Badminton solo.",
+        "Poorvika has gained 2nd place(🥈) in Badminton solo."
+      ]
+    },
+    {
+      "name": "Masters",
+      "description": "They are M-Pharm students. A seasoned group of players with exceptional skills and years of experience in the sport.",
+      "contributors": ["Srujana has gained 3rd place(🥉) in chess ♟️."]
+    },
+    {
+      "name": "Brutal Soldiers",
+      "description": "Theyare D-Pharm students. Known for their Fearless and relentless, the Brutal Soldiers never back down from a challenge.",
+      "contributors": [
+        "Hariprasad & Zubir has gained 3rd place(🥉) in Badminton duo. ",
+        "Hariprasad has gained 2nd place(🥈) in badminton solo."
+      ]
+    },
+    {
+      "name": "Dominators",
+      "description": "They are 4th B-Pharm students. A powerhouse of talent and determination, always setting new records in the game.",
+      "contributors": [
+        "Dhanush gowda has gained 1st place(🥇) in  chess ♟️.",
+        "Bhuvan.H.B has gained 3rd place (🥉) in chess ♟️.",
+        "Gaganashree & Sandya has gained 3rd place(🥉) in Badminton duo.",
+        "Koushal & Hemanth.M.C has gained 2nd place(🥈) in Badminton duo.",
+        "Ananya.B.S has gained 3rd place(🥉) in Badminton solo.",
+        "Koushal.G has gained 3rd place(🥉) in Badminton solo."
+      ]
+    },
+    {
+      "name": "Phantom",
+      "description": "They are Pharm-D Juniors. A mysterious team with unpredictable tactics, often surprising their opponents with clever maneuvers.",
+      "contributors": [
+        "Thanushree & Madiha Anjum has gained 2nd place(🥈) in Carrom."
+      ]
+    },
+    {
+      "name": "Rising Stars",
+      "description": "They are 2nd B-Pharm students. A young and energetic team with the potential to become future champions.",
+      "contributors": ["Sanmathi has gained 1st place(🥇) in chess ♟️."]
+    }
+  ],
+  "sports": {
     "Chess": {
-      "Male": { "gold": "Dominators", "silver": "Team Spirit", "bronze": "Dominators" },
-      "Female": { "gold": "Rising Stars", "silver": "Team Spirit", "bronze": "Master's" }
+      "Male": {
+        "gold": "Dominators",
+        "silver": "Team Spirit",
+        "bronze": "Dominators"
+      },
+      "Female": {
+        "gold": "Rising Stars",
+        "silver": "Team Spirit",
+        "bronze": "Master's"
+      }
     },
     "Carrom": {
       "Male": { "gold": "", "silver": "", "bronze": "" },
@@ -51,57 +84,72 @@
     },
     "Badminton": {
       "Single": {
-        "Male": { "gold": "Falcons", "silver": "Brutal Soldiers", "bronze": "Dominators" },
-        "Female": { "gold": "Team Spirit", "silver": "Team Spirit ", "bronze": "Dominators" }
+        "Male": {
+          "gold": "Falcons",
+          "silver": "Brutal Soldiers",
+          "bronze": "Dominators"
+        },
+        "Female": {
+          "gold": "Team Spirit",
+          "silver": "Team Spirit ",
+          "bronze": "Dominators"
+        }
       },
       "Double": {
-        "Male": { "gold": "Falcons", "silver": "Dominators", "bronze": "Brutal Soldiers" },
-        "Female": { "gold": "Team Spirit", "silver": "Falcons", "bronze": "Dominators" }
+        "Male": {
+          "gold": "Falcons",
+          "silver": "Dominators",
+          "bronze": "Brutal Soldiers"
+        },
+        "Female": {
+          "gold": "Team Spirit",
+          "silver": "Falcons",
+          "bronze": "Dominators"
+        }
       }
     },
     "Cricket": {
-      "Short_Boundry":{
-        "Male":{"gold": "", "silver": "", "bronze": ""},
-        "Female":{"gold": "", "silver": "", "bronze": ""}
+      "Short_Boundry": {
+        "Male": { "gold": "", "silver": "", "bronze": "" },
+        "Female": { "gold": "", "silver": "", "bronze": "" }
       },
-      "Long_Boundry":{
-        "Male":{"gold": "", "silver": "", "bronze": ""}
+      "Long_Boundry": {
+        "Male": { "gold": "", "silver": "", "bronze": "" }
       }
     },
-    "Kho-Kho":{
+    "Kho-Kho": {
       "Male": { "gold": "", "silver": "", "bronze": "" },
       "Female": { "gold": "", "silver": "", "bronze": "" }
     },
-    "Athletics":{
-      "hundred_meters":{
-        "Male":{"gold": "", "silver": "", "bronze": ""},
-        "Female":{"gold": "", "silver": "", "bronze": ""}
+    "Athletics": {
+      "hundred_meters": {
+        "Male": { "gold": "", "silver": "", "bronze": "" },
+        "Female": { "gold": "", "silver": "", "bronze": "" }
       },
-      "Relay":{
-        "Male":{"gold": "", "silver": "", "bronze": ""},
-        "Female":{"gold": "", "silver": "", "bronze": ""}
+      "Relay": {
+        "Male": { "gold": "", "silver": "", "bronze": "" },
+        "Female": { "gold": "", "silver": "", "bronze": "" }
       },
-      "Long_Jump":{
-          "Male":{"gold": "", "silver": "", "bronze": ""},
-          "Female":{"gold": "", "silver": "", "bronze": ""}
+      "Long_Jump": {
+        "Male": { "gold": "", "silver": "", "bronze": "" },
+        "Female": { "gold": "", "silver": "", "bronze": "" }
       }
-  },
-    "Volley ball":{
+    },
+    "Volley ball": {
       "Male": { "gold": "", "silver": "", "bronze": "" }
     },
-    "Throw ball":{
+    "Throw ball": {
       "Female": { "gold": "", "silver": "", "bronze": "" }
     }
   },
-    "scores": {
-      "Falcons": { "gold": 3, "silver": 1, "bronze": 1 },
-      "Wild Thunders": { "gold": 0, "silver": 0, "bronze": 0 },
-      "Team Spirit": { "gold": 2, "silver": 3, "bronze": 0 },
-      "Masters": { "gold": 0, "silver": 0, "bronze": 1 },
-      "Brutal Soldiers": { "gold": 0, "silver": 1, "bronze": 1 },
-      "Dominators": { "gold": 1, "silver": 1, "bronze": 4 },
-      "Phantom": { "gold": 0, "silver": 1, "bronze": 0 },
-      "Rising Stars": { "gold": 1, "silver": 0, "bronze": 0 }
-    }
+  "scores": {
+    "Falcons": { "gold": 3, "silver": 1, "bronze": 1 },
+    "Wild Thunders": { "gold": 0, "silver": 0, "bronze": 0 },
+    "Team Spirit": { "gold": 2, "silver": 3, "bronze": 0 },
+    "Masters": { "gold": 0, "silver": 0, "bronze": 1 },
+    "Brutal Soldiers": { "gold": 0, "silver": 1, "bronze": 1 },
+    "Dominators": { "gold": 1, "silver": 1, "bronze": 4 },
+    "Phantom": { "gold": 0, "silver": 1, "bronze": 0 },
+    "Rising Stars": { "gold": 1, "silver": 0, "bronze": 0 }
   }
-  
+}
