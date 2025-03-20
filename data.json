@@ -9,7 +9,8 @@
         "Keerthana & Sushmitha has gained 2nd place(🥈) in Badminton duo.",
         "Shashank & Bijjala has gained 1st place(🥇) in Badmiton duo.",
         "Shashank has gained 1st place(🥇) in badminton solo.",
-        "Shashank & Bijjala has gained 3rd place(🥉) in Carrom"
+        "Shashank & Bijjala has gained 3rd place(🥉) in Carrom.",
+        "Jabeer & Team has gained 1st place(🥇) in Volleyball 🏐."
       ]
     },
     {
@@ -27,13 +28,16 @@
         "Bhavyashree has gained 1st place(🥇) in Badminton solo.",
         "Poorvika has gained 2nd place(🥈) in Badminton solo.",
         "Chandana & Team had gaines 1st place(🥇) in Kho-Kho.",
-        "Mohan has gained 2ns place(🥈) in 100 Meters Running 🏃🏻"
+        "Mohan has gained 2ns place(🥈) in 100 Meters Running 🏃🏻."
       ]
     },
     {
       "name": "Masters",
       "description": "They are M-Pharm students. A seasoned group of players with exceptional skills and years of experience in the sport.",
-      "contributors": ["Srujana has gained 3rd place(🥉) in chess ♟️."]
+      "contributors": [
+        "Srujana has gained 3rd place(🥉) in chess ♟️.",
+        "Rajeev & Team has gained 3rd place(🥉) in Volleyball 🏐."
+      ]
     },
     {
       "name": "Brutal Soldiers",
@@ -52,12 +56,13 @@
         "Gaganashree & Sandya has gained 3rd place(🥉) in Badminton duo.",
         "Koushal & Hemanth.M.C has gained 2nd place(🥈) in Badminton duo.",
         "Ananya.B.S has gained 3rd place(🥉) in Badminton solo.",
-        "Aadidevraj has has gained 3rd place(🥉) in 100 meters Running 🏃🏻",
+        "Aadidevraj has has gained 3rd place(🥉) in 100 meters Running 🏃🏻.",
         "Koushal.G has gained 3rd place(🥉) in Badminton solo.",
-        "Prajwal & Rajendra prasad has gained 1st place(🥇) in Carrom",
-        "Koushal & Pavan Kumar.R has gained 2nd place(🥈) in Carrom",
+        "Prajwal & Rajendra prasad has gained 1st place(🥇) in Carrom.",
+        "Koushal & Pavan Kumar.R has gained 2nd place(🥈) in Carrom.",
         "Chandana & Team has gained 3rd place(🥉) in Kho-Kho.",
-        "Hemanth.M.C has gained 1st place(🥇) in 100 meters Running 🏃🏻"
+        "Hemanth.M.C has gained 1st place(🥇) in 100 meters Running 🏃🏻.",
+        "Hemanth.M.C & Team has has gained 2nd place(🥈) in Volleyball 🏐."
       ]
     },
     {
@@ -71,7 +76,9 @@
     {
       "name": "Rising Stars",
       "description": "They are 2nd B-Pharm students. A young and energetic team with the potential to become future champions.",
-      "contributors": ["Sanmathi has gained 1st place(🥇) in chess ♟️."]
+      "contributors": [
+        "Sanmathi has gained 1st place(🥇) in chess ♟️."
+      ]
     }
   ],
   "sports": {
@@ -145,19 +152,19 @@
       }
     },
     "Volley ball": {
-      "Male": { "gold": "", "silver": "", "bronze": "" }
+      "Male": { "gold": "Falcons", "silver": "Dominators", "bronze": "Master's" }
     },
     "Throw ball": {
       "Female": { "gold": "", "silver": "", "bronze": "" }
     }
   },
   "scores": {
-    "Falcons": { "gold": 3, "silver": 1, "bronze": 2 },
+    "Falcons": { "gold": 4, "silver": 1, "bronze": 2 },
     "Wild Thunders": { "gold": 0, "silver": 0, "bronze": 0 },
     "Team Spirit": { "gold": 3, "silver": 3, "bronze": 0 },
-    "Masters": { "gold": 0, "silver": 0, "bronze": 1 },
+    "Masters": { "gold": 0, "silver": 0, "bronze": 2 },
     "Brutal Soldiers": { "gold": 0, "silver": 1, "bronze": 1 },
-    "Dominators": { "gold": 3, "silver": 2, "bronze": 6 },
+    "Dominators": { "gold": 3, "silver": 3, "bronze": 6 },
     "Phantom": { "gold": 0, "silver": 2, "bronze": 0 },
     "Rising Stars": { "gold": 1, "silver": 0, "bronze": 0 }
   }
