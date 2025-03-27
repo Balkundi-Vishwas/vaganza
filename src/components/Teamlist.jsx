@@ -64,7 +64,7 @@ const TeamList = () => {
               {/* Close Button */}
               <button
                 onClick={handleClose}
-                className="absolute top-3 right-3 bg-gray-300 hover:bg-red-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-xl font-bold"
+                className="absolute top-3 right-3  bg-red-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-xl font-bold"
               >
                 ✖
               </button>

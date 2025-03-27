@@ -7,12 +7,14 @@ import Sportings from "./components/sports";
 import About from "./pages/About";
 import Homepage from "./pages/Home";
 import Footer from "./components/footer";
+import Popup from "./components/Popup";
 
 const App = () => {
   return (
     <Router>
       <div className="flex flex-col min-h-screen bg-gray-100">
         <Header />
+        <Popup />
         <main className="flex-1">
           <Routes>
             <Route path="/about" element={<About />} />
