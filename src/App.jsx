@@ -14,7 +14,7 @@ const App = () => {
     <Router>
       <div className="flex flex-col min-h-screen bg-gray-100">
         <Header />
-        <Popup />
+        
         <main className="flex-1">
           <Routes>
             <Route path="/about" element={<About />} />
@@ -24,6 +24,7 @@ const App = () => {
             <Route path="/scoreboard" element={<Scoreboard />} />
           </Routes>
         </main>
+        <Popup />
         <Footer />
       </div>
     </Router>
