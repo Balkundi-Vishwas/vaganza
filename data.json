@@ -145,7 +145,7 @@
     },
     "Cricket": {
       "Short_Boundry": {
-        "Male": { "gold": "", "silver": "", "bronze": "" },
+        "Male": { "gold": "Falcons", "silver": "Raising stars", "bronze": "Dominators" },
         "Female": {
           "gold": "Dominators",
           "silver": "Falcons",
@@ -153,7 +153,7 @@
         }
       },
       "Long_Boundry": {
-        "Male": { "gold": "", "silver": "", "bronze": "" }
+        "Male": { "gold": "Master's", "silver": "Dominators", "bronze": "Falcons" }
       }
     },
     "Kho-Kho": {
@@ -183,15 +183,15 @@
       },
       "Long_Jump": {
         "Male": { "gold": "Falcons", "silver": "Master's", "bronze": "Dominators" },
-        "Female": { "gold": "", "silver": "", "bronze": "" }
+        "Female": { "gold": "Raising stars", "silver": "Dominators", "bronze": "Dominators" }
       },
       "javlin_throw": {
-        "Male": { "gold": "", "silver": "", "bronze": "" },
+        "Male": { "gold": "Master's", "silver": "Dominators", "bronze": "Falcons" },
         "Female": { "gold": "", "silver": "", "bronze": "" }
       },
       "shortput": {
-        "Male": { "gold": "", "silver": "", "bronze": "" },
-        "Female": { "gold": "", "silver": "", "bronze": "" }
+        "Male": { "gold": "Falcons", "silver": "Master's", "bronze": "Dominators" },
+        "Female": { "gold": "Phantoms", "silver": "Master's", "bronze": "Falcons" }
       }
     },
     "Volley ball": {
@@ -202,17 +202,17 @@
       }
     },
     "Throw ball": {
-      "Female": { "gold": "", "silver": "", "bronze": "" }
+      "Female": { "gold": "Team spirit", "silver": "Dominators", "bronze": "Brutal soldiers" }
     }
   },
   "scores": {
-    "Falcons": { "gold": 5, "silver": 2, "bronze": 2 },
+    "Falcons": { "gold": 7, "silver": 2, "bronze": 5 },
     "Wild Thunders": { "gold": 0, "silver": 0, "bronze": 0 },
-    "Team Spirit": { "gold": 4, "silver": 4, "bronze": 1 },
-    "Masters": { "gold": 0, "silver": 1, "bronze": 4 },
-    "Brutal Soldiers": { "gold": 0, "silver": 1, "bronze": 1 },
-    "Dominators": { "gold": 5, "silver": 4, "bronze": 7 },
-    "Phantom": { "gold": 0, "silver": 2, "bronze": 0 },
-    "Rising Stars": { "gold": 3, "silver": 1, "bronze": 1 }
+    "Team Spirit": { "gold": 5, "silver": 4, "bronze": 1 },
+    "Masters": { "gold": 2, "silver": 3, "bronze": 4 },
+    "Brutal Soldiers": { "gold": 0, "silver": 1, "bronze": 2 },
+    "Dominators": { "gold": 5, "silver": 8, "bronze": 10 },
+    "Phantom": { "gold": 1, "silver": 2, "bronze": 0 },
+    "Rising Stars": { "gold": 4, "silver": 2, "bronze": 1 }
   }
 }
