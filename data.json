@@ -29,7 +29,9 @@
         "Bhavyashree has gained 1st place(🥇) in Badminton solo.",
         "Poorvika has gained 2nd place(🥈) in Badminton solo.",
         "Chandana & Team had gaines 1st place(🥇) in Kho-Kho.",
-        "Mohan has gained 2ns place(🥈) in 100 Meters Running 🏃🏻."
+        "Mohan has gained 2ns place(🥈) in 100 Meters Running 🏃🏻.",
+        "Mohan & Team had gained 2nd place(🥈) in boys relay🏃🏻‍♂️🏃🏻‍♂️.",
+        "Chandana & Team has  3rd place(🥉) in girls relay 🏃🏻‍♀️🏃🏻‍♀️."
       ]
     },
     {
@@ -38,7 +40,8 @@
       "contributors": [
         "Srujana has gained 3rd place(🥉) in chess ♟️.",
         "Rajeev & Team has gained 3rd place(🥉) in Volleyball 🏐.",
-        "akshatha & Team has gained 3rd place(🥉) in cricket🏏."
+        "akshatha & Team has gained 3rd place(🥉) in cricket🏏.",
+        "Ashish & Team has gained 3rd place(🥉) in boys relay 🏃🏻‍♂️🏃🏻‍♂️"
       ]
     },
     {
@@ -65,7 +68,9 @@
         "Chandana & Team has gained 3rd place(🥉) in Kho-Kho.",
         "Hemanth.M.C has gained 1st place(🥇) in 100 meters Running 🏃🏻.",
         "Hemanth.M.C & Team has has gained 2nd place(🥈) in Volleyball 🏐.",
-        "Gagana & Team has gained 1st place(🥇) in cricket🏏."
+        "Gagana & Team has gained 1st place(🥇) in cricket🏏.",
+        "Aadidevraj & Team has gained 1st place(🥇) in boys relay🏃🏻‍♂️🏃🏻‍♂️.",
+        "Sandya & Team has has gained 2nd place(🥈) in girls relay 🏃🏻‍♀️🏃🏻‍♀️."
       ]
     },
     {
@@ -83,7 +88,8 @@
         "Sanmathi has gained 1st place(🥇) in chess ♟️.",
         "Chaitra.D.C has gained 1st place(🥇) in 100 Meters Running 🏃🏻‍♀️.",
         "Bhavani.M has gained 2nd place(🥈) in 100 Meters Running 🏃🏻‍♀️.",
-        "Likitha.S has gained 3rd place(🥉) in 100 Meters Running 🏃🏻‍♀️"
+        "Likitha.S has gained 3rd place(🥉) in 100 Meters Running 🏃🏻‍♀️",
+        "Bhavani & Team has gained 1st place(🥇) in girls relay 🏃🏻‍♀️🏃🏻‍♀️."
       ]
     }
   ],
@@ -149,8 +155,8 @@
         "Female": { "gold": "Rising Stars", "silver": "Rising Stars", "bronze": "Rising Stars" }
       },
       "Relay": {
-        "Male": { "gold": "", "silver": "", "bronze": "" },
-        "Female": { "gold": "", "silver": "", "bronze": "" }
+        "Male": { "gold": "Dominators", "silver": "Teamspirit", "bronze": "Master's" },
+        "Female": { "gold": "Raising Stars", "silver": "Dominators", "bronze": "Team spirit" }
       },
       "Long_Jump": {
         "Male": { "gold": "", "silver": "", "bronze": "" },
@@ -167,11 +173,11 @@
   "scores": {
     "Falcons": { "gold": 4, "silver": 2, "bronze": 2 },
     "Wild Thunders": { "gold": 0, "silver": 0, "bronze": 0 },
-    "Team Spirit": { "gold": 3, "silver": 4, "bronze": 0 },
-    "Masters": { "gold": 0, "silver": 0, "bronze": 3 },
+    "Team Spirit": { "gold": 4, "silver": 4, "bronze": 1 },
+    "Masters": { "gold": 0, "silver": 0, "bronze": 4 },
     "Brutal Soldiers": { "gold": 0, "silver": 1, "bronze": 1 },
-    "Dominators": { "gold": 4, "silver": 3, "bronze": 6 },
+    "Dominators": { "gold": 5, "silver": 4, "bronze": 6 },
     "Phantom": { "gold": 0, "silver": 2, "bronze": 0 },
-    "Rising Stars": { "gold": 2, "silver": 1, "bronze": 1 }
+    "Rising Stars": { "gold": 3, "silver": 1, "bronze": 1 }
   }
 }
