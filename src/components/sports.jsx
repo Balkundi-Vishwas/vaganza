@@ -61,7 +61,7 @@ const Sportings = () => {
               </button>
 
               {/* Sport Details */}
-              <h2 className="text-3xl font-bold text-center text-[#17202a]">{selectedSport} Details</h2>
+              <h2 className="text-3xl font-bold text-center text-[#17202a]">{selectedSport}</h2>
               <div className="mt-4 p-4 border border-gray-300 rounded-lg shadow-md h-[50vh] overflow-y-auto custom-scroll">
                 <SportDetails sport={selectedSport} data={teamsData.sports[selectedSport]} />
               </div>
@@ -98,6 +98,10 @@ const SportDetails = ({ sport, data }) => {
           <SportCategory categoryData={data.Relay} />
           <h3 className="text-lg font-semibold mt-4">Long Jump</h3>
           <SportCategory categoryData={data.Long_Jump} />
+          <h3 className="text-lg font-semibold mt-4">Javelin Throw</h3>
+          <SportCategory categoryData={data.javlin_throw} />
+          <h3 className="text-lg font-semibold mt-4">Short Put</h3>
+          <SportCategory categoryData={data.shortput} />
         </>
       ) : (
         <SportCategory categoryData={data} />

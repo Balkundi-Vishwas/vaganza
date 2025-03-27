@@ -101,7 +101,11 @@
       }
     },
     "Carrom": {
-      "Male": { "gold": "Dominators", "silver": "Dominators", "bronze": "Falcons" },
+      "Male": {
+        "gold": "Dominators",
+        "silver": "Dominators",
+        "bronze": "Falcons"
+      },
       "Female": { "gold": "Falcons", "silver": "Phantom", "bronze": "Falcons" }
     },
     "Badminton": {
@@ -133,7 +137,11 @@
     "Cricket": {
       "Short_Boundry": {
         "Male": { "gold": "", "silver": "", "bronze": "" },
-        "Female": { "gold": "Dominators", "silver": "Falcons", "bronze": "Master's" }
+        "Female": {
+          "gold": "Dominators",
+          "silver": "Falcons",
+          "bronze": "Master's"
+        }
       },
       "Long_Boundry": {
         "Male": { "gold": "", "silver": "", "bronze": "" }
@@ -141,12 +149,24 @@
     },
     "Kho-Kho": {
       "Male": { "gold": "", "silver": "", "bronze": "" },
-      "Female": { "gold": "Teamspirit", "silver": "Phantom", "bronze": "Dominators" }
+      "Female": {
+        "gold": "Teamspirit",
+        "silver": "Phantom",
+        "bronze": "Dominators"
+      }
     },
     "Athletics": {
       "hundred_meters": {
-        "Male": { "gold": "Dominators", "silver": "Teamspirits", "bronze": "Dominators" },
-        "Female": { "gold": "Rising Stars", "silver": "Rising Stars", "bronze": "Rising Stars" }
+        "Male": {
+          "gold": "Dominators",
+          "silver": "Teamspirits",
+          "bronze": "Dominators"
+        },
+        "Female": {
+          "gold": "Rising Stars",
+          "silver": "Rising Stars",
+          "bronze": "Rising Stars"
+        }
       },
       "Relay": {
         "Male": { "gold": "", "silver": "", "bronze": "" },
@@ -155,10 +175,22 @@
       "Long_Jump": {
         "Male": { "gold": "", "silver": "", "bronze": "" },
         "Female": { "gold": "", "silver": "", "bronze": "" }
+      },
+      "javlin_throw": {
+        "Male": { "gold": "", "silver": "", "bronze": "" },
+        "Female": { "gold": "", "silver": "", "bronze": "" }
+      },
+      "shortput": {
+        "Male": { "gold": "", "silver": "", "bronze": "" },
+        "Female": { "gold": "", "silver": "", "bronze": "" }
       }
     },
     "Volley ball": {
-      "Male": { "gold": "Falcons", "silver": "Dominators", "bronze": "Master's" }
+      "Male": {
+        "gold": "Falcons",
+        "silver": "Dominators",
+        "bronze": "Master's"
+      }
     },
     "Throw ball": {
       "Female": { "gold": "", "silver": "", "bronze": "" }
