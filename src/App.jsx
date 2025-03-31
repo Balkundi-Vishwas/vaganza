@@ -7,7 +7,7 @@ import Sportings from "./components/sports";
 import About from "./pages/About";
 import Homepage from "./pages/Home";
 import Footer from "./components/footer";
-import Popup from "./components/Popup";
+// import Popup from "./components/Popup";
 
 const App = () => {
   return (
@@ -24,7 +24,7 @@ const App = () => {
             <Route path="/scoreboard" element={<Scoreboard />} />
           </Routes>
         </main>
-        <Popup />
+        {/* <Popup /> */}
         <Footer />
       </div>
     </Router>
